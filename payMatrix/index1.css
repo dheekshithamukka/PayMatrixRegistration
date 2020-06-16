@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /*background: url('https://images.pexels.com/photos/3760067/pexels-photo-3760067.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') no-repeat center center fixed;*/
+    /*background: url('https://images.pexels.com/photos/518543/pexels-photo-518543.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') no-repeat center center fixed;
+    */
+    /*background: url('https://images.pexels.com/photos/1097456/pexels-photo-1097456.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') no-repeat center center fixed;
+    */
+    /*background: url('https://images.pexels.com/photos/128299/pexels-photo-128299.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') no-repeat center center fixed;*/
+    /*background: url('https://images.pexels.com/photos/461077/pexels-photo-461077.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') no-repeat center center fixed;
+    */
+    /*background: url('https://images.pexels.com/photos/220769/pexels-photo-220769.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') no-repeat center center fixed;
+    */
+    background: url('https://images.pexels.com/photos/2031726/pexels-photo-2031726.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') no-repeat center center fixed;
+    background-size: cover;
+}
+.container{
+    color: black;
+    display: inline;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+}
+.container h1{
+    /*font-family: 'Open Sans Condensed', sans-serif;*/
+    display: inline-block;
+    font-size: 40px;
+    border-bottom: 5px solid darkblue;
+    margin-bottom: 8px;
+    padding: 5px 0;
+
+}
+.box{
+    width: 92%;
+    margin: 16px 0px;
+    border-bottom: 2px solid darkblue;
+}
+.box i{
+    width: 25px;
+    text-align: center;
+
+}
+::placeholder{
+    color: black;
+}
+.box input{
+    background: none;
+    width: 75%;
+    padding: 5px 10px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    color: black;
+}
+.box input:hover{
+    background: none;
+}
+/*.box input[type=radio]{
+    margin-left: 22px;
+    padding: 12px 0px;
+    display: inline;
+    width: 12%;
+}*/
+.btn{
+    cursor: pointer;
+    outline: none;
+    width: 40%;
+    margin: 15px 0;
+    padding: 10px 20px;
+    border: 2px solid purple;
+    border-radius: 10px;
+    font-size: 16px;
+    background: none;
+    color: black;
+    font-weight: bold;
+
+}
+
+.btn:hover{
+    color: purple;
+    background: white;
+
+}
+.b{
+    margin-top: -20px;
+}
+
+::placeholder{
+    color: black;
+}
+
+.dob{
+    margin-left: 99px;
+    margin-top: -28px;
+    background: none;
+}
+
+.check{
+    margin-top: 20px;
+}
+.small_field{
+    margin-top: -17px;
+    margin-left: 1px;
+}
